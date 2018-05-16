@@ -1,10 +1,10 @@
 # git-create
 
-This script creates a git repo using only shell script, you would no long have the hassle to go to a web browser to create a new repo and then clone it.
+This script creates a git repo (public or private) using only shell script, no longer need to go to a web browser to create a new repo and then clone it.
 
 ### Useage:
 ```
-$ git create my_new_repo
+$ git create my_new_repo (any character indicating you want a private repor)
 ```
 
 ### Installing
