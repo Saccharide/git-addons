@@ -29,7 +29,9 @@ $ mv git-create ~/bin
 $ chomod +x git-create
 ```
 (Make sure you have set up SSH key in your account setting for this to work well)
-
+```
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
 ## Author
 
 * **Saccharide**
