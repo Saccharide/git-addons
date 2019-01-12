@@ -1,1 +1,2 @@
-cp git-create /usr/bin
+#!/bin/sh
+cp git* /usr/bin

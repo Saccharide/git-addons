@@ -10,7 +10,7 @@ git clone https://github.com/saccharide/git-create
 ```
 2) Add Permission to install.sh
 ```
-chomod +x install.sh
+chmod +x install.sh
 ```
 3) Run install.sh
 ```
