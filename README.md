@@ -5,7 +5,7 @@ This script creates a git repo (public or private) using only shell script, no l
 ### Installing
 
 ```
-git clone https://github.com/saccharide/git-addons && chmod +x install.sh && ./install.sh 
+git clone https://github.com/saccharide/git-addons && chmod +x INSTALL && ./INSTALL
 ```
 (SSH key for easier commits)
 ```
@@ -18,7 +18,9 @@ git create USERNAME REPO_NAME [private] (optional third field, empty for public 
 git commit-all "COMMIT MESSAGE"
 
 git pushom
+
+git pullom
 ```
 
 ## Author
-* **Saccharide**
+**Saccharide**
