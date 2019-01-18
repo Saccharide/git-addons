@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ $(cat .git/config | grep url) != *"@"* ]]; then
+    username=$(cat .git/config | grep url | cut -d '/' -f 4)
+    repo=$(cat .git/config | grep url | cut -d '/' -f 5)
+    git remote set-url origin git@github.com:$username/$repo
+
+else
+    echo "Already using SSH key."
+fi
+
