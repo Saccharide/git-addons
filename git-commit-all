@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 commit_msg=$1
 test -z $commit_msg && echo "Commit message cannot be empty." && exit 1
