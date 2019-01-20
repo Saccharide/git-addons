@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ $(cat .git/config | grep url) != *"https://"* ]]; then
+    username=$(cat .git/config | grep url | cut -d ':' -f 2 | cut -d '/' -f 1)
+    repo=$(cat .git/config | grep url | cut -d ':' -f 2 | cut -d '/' -f 2)
+    git remote set-url origin "https://github.com/$username/$repo" 
+else
+    echo "Already using HTTP URL."
+fi
+
