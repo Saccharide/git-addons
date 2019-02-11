@@ -19,7 +19,7 @@ if [[ -z $repo_name ]]; then
 fi
 
 private_flag=', "private" : "true"'
-if [[ -z $private_flag ]]; then
+if [[ -z $private_arg ]]; then
     echo "Making a public repo ..."
     private_flag=''
 else
