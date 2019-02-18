@@ -1,4 +1,4 @@
-# git-create
+# git-addons
 
 This script creates a git repo (public or private) using only shell script, no longer need to go to a web browser to create a new repo and then clone it.
 
@@ -15,7 +15,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 git create USERNAME REPO_NAME [private] (optional third field, empty for public repo)
 
-git commit-all "COMMIT MESSAGE"
+git comall "COMMIT MESSAGE"
 
 git pushom
 
