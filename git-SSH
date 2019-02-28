@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ ! -d ".git" ]; then
+    echo ".git does NOT exists"
+    exit 1
+fi
+
 if [[ $(cat .git/config | grep url) != *"@"* ]]; then
     username=$(cat .git/config | grep url | cut -d '/' -f 4)
     repo=$(cat .git/config | grep url | cut -d '/' -f 5)
