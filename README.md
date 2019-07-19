@@ -13,9 +13,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 ### Usage:
 ```bash
-git create USERNAME REPO_NAME [private] (optional third field, empty for public repo)
+git create USERNAME REPO_NAME [private] 
 
-git comall "COMMIT MESSAGE"
+git comall "MESSAGE"
 
 git pushom
 
